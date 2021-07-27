@@ -1,0 +1,231 @@
+@charset "UTF-8";
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Quicksand", "MicrosoftJhengHeiRegular", sans-serif;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+.wrap .banner {
+  width: 100%;
+  height: 380px;
+  padding-top: 8%;
+  background: url("../img/Hero.png") no-repeat center center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.wrap .banner .bannerTitle {
+  color: #fff;
+  margin-bottom: 8.4%;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+.wrap .banner #select-wrap {
+  position: relative;
+  width: 44.1%;
+}
+.wrap .banner #select-wrap select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 100%;
+  height: 42px;
+  padding: 0 1.7% 0 0.9%;
+  border-radius: 3px;
+  border: 3px solid #fff;
+  background: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  font-weight: 600;
+}
+.wrap .banner #select-wrap select:after {
+  height: 42px;
+}
+.wrap .banner #select-wrap:after {
+  content: "▼";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 10px;
+  line-height: 42px;
+}
+.wrap .hotAreaG {
+  width: 78.1%;
+  height: 112px;
+  margin: -30px auto 50px;
+  padding: 1% 2.5%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.wrap .hotAreaG .hotAreaTitle {
+  margin-bottom: 16px;
+}
+.wrap .hotAreaG .btnG-hotArea {
+  margin-left: 2.5%;
+}
+.wrap .hotAreaG .btnG-hotArea button {
+  width: 130px;
+  height: 42px;
+  padding: 0.5% 3.3%;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  margin-left: 23px;
+}
+.wrap .hotAreaG .btnG-hotArea button:first-child {
+  margin-left: 0;
+}
+.wrap .hotAreaG .btnG-hotArea button:nth-child(1) {
+  background-color: #8A82CC;
+}
+.wrap .hotAreaG .btnG-hotArea button:nth-child(1):hover {
+  background-color: #6c64af;
+}
+.wrap .hotAreaG .btnG-hotArea button:nth-child(2) {
+  background-color: #FFA782;
+}
+.wrap .hotAreaG .btnG-hotArea button:nth-child(2):hover {
+  background-color: #e68c65;
+}
+.wrap .hotAreaG .btnG-hotArea button:nth-child(3) {
+  background-color: #F5D005;
+}
+.wrap .hotAreaG .btnG-hotArea button:nth-child(3):hover {
+  background-color: #daba07;
+}
+.wrap .hotAreaG .btnG-hotArea button:nth-child(4) {
+  background-color: #559AC8;
+}
+.wrap .hotAreaG .btnG-hotArea button:nth-child(4):hover {
+  background-color: #3b82b1;
+}
+.wrap .hori {
+  background-image: linear-gradient(to right, #559AC8 25%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 10px 2px;
+  background-repeat: repeat-x;
+  width: 87.9%;
+  height: 1px;
+  margin: 0 auto 76px;
+}
+.wrap .sceneryAreaG .areaTitle {
+  color: #8A82CC;
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.wrap .sceneryAreaG .sceneryList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+.wrap .sceneryAreaG .sceneryList li {
+  width: 45.3%;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 36px;
+  border-radius: 5px;
+}
+.wrap .sceneryAreaG .sceneryList li:hover {
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.wrap .sceneryAreaG .sceneryList li:nth-child(even) {
+  margin-left: 16px;
+}
+.wrap .sceneryAreaG .sceneryList li a {
+  text-decoration: none;
+}
+.wrap .sceneryAreaG .sceneryList li a .titleG {
+  height: 309.48437px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  padding: 0 24px 14px;
+}
+.wrap .sceneryAreaG .sceneryList li a .titleG h3 {
+  font-size: 24px;
+}
+.wrap .sceneryAreaG .sceneryList li a .titleG p {
+  font-size: 16px;
+}
+.wrap .sceneryAreaG .sceneryList li a .infoG {
+  width: 100%;
+  padding: 15px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.wrap .sceneryAreaG .sceneryList li a .infoG .contactText {
+  display: flex;
+  flex-flow: column;
+  align-items: space-evenly;
+}
+.wrap .sceneryAreaG .sceneryList li a .infoG .contactText p {
+  width: 320px;
+  margin-bottom: 13px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.wrap .sceneryAreaG .sceneryList li a .infoG .contactText p:nth-child(1) img {
+  margin-right: 9px;
+}
+.wrap .sceneryAreaG .sceneryList li a .infoG .contactText p:nth-child(2) img {
+  margin-right: 10px;
+}
+.wrap .sceneryAreaG .sceneryList li a .infoG .contactText p:nth-child(3) {
+  margin: 0 0 0 2px;
+}
+.wrap .sceneryAreaG .sceneryList li a .infoG .contactText p:nth-child(3) img {
+  margin-right: 12px;
+}
+.wrap .sceneryAreaG .sceneryList li a .infoG .tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .sceneryAreaG .sceneryList li a .infoG .tag img {
+  margin-right: 8px;
+}
+.wrap .btnGoTop {
+  display: none;
+  position: absolute;
+  right: 28px;
+  bottom: 195px;
+}
+.wrap footer {
+  height: 90px;
+  text-align: center;
+  background-color: #559AC8;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.wrap footer p:nth-child(1) {
+  margin-bottom: 15px;
+  color: #fff;
+}
+.wrap footer P:nth-child(2) {
+  color: #FFD366;
+}/*# sourceMappingURL=kaoshiungTravel.css.map */
